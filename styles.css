@@ -26,10 +26,15 @@ h5 {
     font-size: 28px;
     margin-bottom: 4px;
     margin-left: 30px;
-    /* margin-right: 30px; */
-
 }
 
+a {
+    color:black;
+}
+
+a:hover {
+    color:var(--black);
+}
 
 /* HEADER */
 
@@ -102,7 +107,8 @@ h2 {
     padding-bottom: 40px;
 }
 
-.aboutDescription {
+
+.aboutDescription, #gregbedfordpic {
     margin-left: 80px;
     margin-right: 40px;
 }
@@ -197,10 +203,6 @@ footer {
 
 h5 {
     padding-bottom: 40px;
-}
-
-
-h5 {
     color: white;
 }
 
@@ -227,8 +229,9 @@ h5 {
 @media (max-width: 575.98px) {
 
     h3, h4, h5 {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 20px;
+        margin-right: 10px;
+        align-items: center;
     }
     #about {
         display: flex;
@@ -248,8 +251,9 @@ h5 {
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     h3, h4, h5 {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 20px;
+        margin-right: 10px;
+        text-align: center;
     }
 
 }
